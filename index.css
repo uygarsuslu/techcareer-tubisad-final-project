@@ -1,0 +1,99 @@
+/* 
+project name: one pages
+project date: 10 Temmuz 2022
+project author: Uygar Süslü
+project version: v.1
+*/
+
+/* #################################################################################### */
+
+/* COMMON PROPERTY */
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+ul {
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+    margin-left:.7rem;
+    margin-right:.7rem;
+}
+
+/* ############################################################################ */
+
+/* LINE CLAMP */
+.line_clamp3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.line_clamp4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.line_clamp5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line_clamp6 {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line_clamp7 {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ############################################################################ */
+
+/* NAVBAR */
+#navbar_id ul>li>a{
+    font-size:.8rem;
+}
+
+#navbar_id ul>li>a>i{
+    margin-right: .5rem;
+    font-size:.8rem;
+    color:chartreuse;
+}
+
+#right_navbar>button,a{
+    font-size:.8rem;
+}
+
+@media screen and (max-width:991px){
+    #right{
+        display: none;
+    }
+}
