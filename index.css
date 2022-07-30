@@ -97,3 +97,80 @@ p {
         display: none;
     }
 }
+
+/* ############################################################################ */
+
+/* HEADER */
+#header {
+    background: url("./picture/intro-bg.png") center bottom no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+    height: 36rem;
+    padding: 200px 0 120px 0;
+}
+  
+#header .header-img{
+    width: 50%;
+    float: right;
+}
+  
+#header .header-info {
+    width: 50%;
+    float: left;
+}
+
+#header .header-info .btn {
+    width: 10rem
+}
+
+@media screen and (max-width:991px){
+    #header .header-img {
+        width: 50%;
+        float: none;
+        margin: 0 auto 25px auto;
+    }
+
+    #header .header-info {
+        width: 80%;
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+
+    #header .header-info .btn{
+        margin-bottom: 5px;
+    }
+}
+
+/* ############################################################################ */
+
+/* FOOTER */
+footer {
+    min-height: 20rem;
+    width: auto;
+    background-color: #2f3337;
+    color: white;
+}
+
+#address_id i {
+    margin-right: .6rem;
+    color: blueviolet;
+}
+
+#address_id a{
+    color:chartreuse;
+    font-size:.8rem;
+}
+
+#copy_right {
+    background-color: #2f3337;
+}
+
+@media screen and (max-width:991px){
+    #date {
+        float: left;
+    }  
+}
+
+/* ############################################################################ */
