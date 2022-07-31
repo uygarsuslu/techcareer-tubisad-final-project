@@ -145,6 +145,106 @@ p {
 
 /* ############################################################################ */
 
+/* MAIN */
+#projects {
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+  
+#projects .icon_message i{
+    font-size:6rem;
+}
+
+#projects .icon_message img {
+    width: 90%;
+    /* height: 50%; */
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:991px){
+    #projects div {
+        margin-bottom: 1rem;
+    }
+}
+
+/* ******************************* */
+
+#counter {
+    padding-top:2rem;
+    padding-bottom:2rem;
+    background-color: rgb(21,69,179, 0.6);
+}
+  
+#counter .counter-header h3,
+#counter .counter-header p {
+    color: #fff;
+    text-align: center;
+}
+  
+#counter .counters {
+    padding-top: 40px;
+}
+  
+#counter .counters span {
+    font-weight: bold;
+    font-size: 48px;
+    display: block;
+    color: #fff;
+}
+  
+#counter .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #cce5ff;
+}
+
+/* ******************************* */
+
+#ability {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#ability i{
+    color:red;
+    font-size: 8rem;
+}
+
+#ability .card{
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,.8);
+}
+
+#ability .card:hover{
+   cursor:pointer;
+   opacity:.7;
+}
+
+@media screen and (max-width:991px){
+    #html, #css {
+        margin-bottom: 1rem;
+    }
+}
+
+/* ******************************* */
+
+#newspaper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(21,69,179, 0.6);
+}
+
+#newspaper_id{
+    color: #fff;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ############################################################################ */
+
 /* FOOTER */
 footer {
     min-height: 20rem;
