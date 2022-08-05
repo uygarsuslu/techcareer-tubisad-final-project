@@ -149,3 +149,16 @@ $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
 });
+
+// Back to top button
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+        $('#back_top').fadeIn('slow');
+    } else {
+        $('#back_top').fadeOut('slow');
+    }
+});
+$('#back_top').click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 100, 'easeInOutExpo');
+    return false;
+});
